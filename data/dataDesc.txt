@@ -1,0 +1,37 @@
+age	Feature	Integer	(Age in years)
+sex	Feature	Categorical	(Sex)
+    0 = female
+    1 = male
+cp	Feature	Categorical	(Chest pain)
+    1 = typical angina
+    2 = atypical angina
+    3 = non-anginal pain
+    4 = asymptomatic
+restbps Feature Integer (resting blood pressure in mm/Hg)
+chol Feature Integer (serum cholesterol mg/dl)
+fbs	Feature	Categorical	(fasting blood sugar)
+    0 = >= 120mg/dl
+    1 = <= 120mg/dl
+restecg	Feature	Categorical (resting electrocardiographic results)
+    1 = normal
+    2 = having ST-T wave abnormality
+    3 = showing probable or definite left ventricular hypertrophy
+thalach	Feature	Integer	(maximum heart rate achieved)
+exang Feature Categorical (exercise induced angina)
+    0 = no
+    1 = yes
+oldpeak	Feature	Float (ST depression induced by exercise relative to rest)
+slope Feature Categorical (the slope of the peak exercise ST segment)
+    1 = upsloping
+    2 = flat
+    3 = downsloping
+ca	Feature	Integer	(number of major vessels (0-3) colored by flouroscopy)
+thal Feature Categorical (this is a short of thalium heart scan)
+    3 = normal (no cold spots)
+    6 = fixed defect (cold spots during rest and exercise)
+    7 = reversible defect (when cold spots only appear during exercise)
+hd	Target	Integer	(diagnosis of heart disease, predicted attribute)
+    0 = no heart disease
+    1 = heart disease
+
+
